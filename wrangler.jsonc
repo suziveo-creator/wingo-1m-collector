@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wingo-1m-collector",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-17",
+  "triggers": {
+    "crons": ["* * * * *"]
+  }
+}
